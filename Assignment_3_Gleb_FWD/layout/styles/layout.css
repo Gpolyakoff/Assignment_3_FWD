@@ -1,0 +1,244 @@
+/* u3131909 */
+
+/* This will allow to include the padding and border */
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* Style the body */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #3c3c3c;
+	background-color: ghostwhite;
+}
+
+
+/* Header location */
+
+p.ex1 {
+	margin-right: 155px;
+}
+
+
+/* Header/Title */
+
+.header {
+	padding: 30px;
+	text-align: center;
+	background: ghostwhite;
+	color: black;
+}
+
+
+/* Style the top navigation bar */
+
+.navbar {
+	display: flex;
+	background-color: black;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+/* Style the navigation bar links */
+
+.navbar a {
+	color: white;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+/* Change color on hover */
+
+.navbar a:hover {
+	background-color: darkorange;
+	color: black;
+}
+
+
+/* Column container */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* Sidebar/left column */
+
+.leftside {
+	flex: 30%;
+	background-color: ghostwhite;
+	padding: 20px;
+}
+
+
+/* Main column */
+
+.maincenter {
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+	text-align: justify;
+}
+
+
+/* all project text */
+
+.text {
+	background-color: gainsboro;
+	width: 100%;
+	padding: 25px;
+}
+
+
+/* Gallery (all images settings) */
+
+div.gallery {
+	border: 2px solid darkgrey;
+}
+
+
+/* Gallery (all images settings) */
+
+div.gallery:hover {
+	border: 4px solid darkorange;
+}
+
+
+/* Gallery (all images settings) */
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* Gallery (all images settings) */
+
+div.desc {
+	padding: 14px;
+	text-align: center;
+}
+
+
+/* Gallery responsive */
+
+.responsive {
+	padding: 0 5px;
+	float: left;
+	width: 23.99999%;
+}
+
+
+/*CSS Forms to apply application */
+
+input[type=text],
+select {
+	width: 100%;
+	padding: 15px 18px;
+	margin: 7px 4;
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 16px;
+	box-sizing: border-box;
+}
+
+
+/* Submit button  */
+
+input[type=submit] {
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 13px 18px;
+	margin: 7px 0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Submit button  */
+
+input[type=submit]:hover {
+	background-color: darkorange;
+}
+
+div {
+	border-radius: 5px;
+	background-color: gainsboro;
+	padding: 25px;
+}
+
+
+/*FOOTER*/
+
+footer {
+	height: 35px;
+	background-color: black;
+	border-radius: 0px 0px 10px 10px;
+}
+
+footer p {
+	padding-left: 20px;
+	color: white;
+	font-family: monospace;
+	font-style: normal;
+}
+
+
+/*All Responsive Desing CSS */
+
+@media screen and (max-width: 720px) {
+	.row,
+	.navbar {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 701px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 501px) {
+	.responsive {
+		width: 100%;
+		padding:
+	}
+}
+
+
+/* paddin */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* Part for table for link page */
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	padding: 7px;
+	text-align: left;
+	border-bottom: 2px solid gainsboro;
+}
+
+/* copyright u3131909 */
